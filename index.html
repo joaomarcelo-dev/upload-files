@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Upload Files</title>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+  <main>
+    <div class="upload-div">
+      <section class="drop-area">
+        <i class="ph ph-cloud-arrow-up"></i>
+        <h3>Importe seus arquivos</h3>
+        <p>Arraste ou clique para fazer upload</p>
+        <input class="input-file" type="file">
+      </section>
+
+      <section class="list-files">
+        <div class="file-upload">
+          <div class="content-one-file">
+          </div>
+          <i class="ph ph-file"></i>
+          <div class="file-info">
+            <h4 class="name-file">Scann_158.pdf</h4>
+            <span class="file-size">30 MB / 74 MB</span>
+            <div class="progress-bar">
+              <progress value="46" max="100"></progress>
+              <span>46%</span>
+            </div>
+          </div>
+          <i class="ph ph-x remove-file"></i>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
