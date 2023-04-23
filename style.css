@@ -158,3 +158,49 @@ progress::-webkit-progress-value {
   background-color: #e0e0e0;
   border-radius: 50%;
 }
+
+@media screen  and (max-width:650px){
+  .upload-div {
+    width: 80%;
+  }
+
+  .drop-area {
+    padding: 17px;
+  }
+
+  .drop-area i.ph {
+    font-size: 34px;
+  }
+
+  .drop-area h3 {
+    font-size: 18px;
+  }
+
+  .drop-area p {
+    font-size: 13px;
+  }
+
+  .file-upload {
+    padding: 4px;
+  }
+
+  .file-upload i.ph-file {
+    padding: 17px 14px;
+  }
+
+  .file-upload i.ph-x {
+    font-size: 13px;
+  }
+
+  .file-upload .file-info h4 {
+    font-size: 13px;
+  }
+
+  .file-upload .file-info span {
+    font-size: 9px;
+  }
+  
+  progress {
+    height: 6px;
+  }
+}
